@@ -3,7 +3,7 @@ package tp2.classes;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class Annuaire{
+public class Annuaire implements java.io.Serializable{
 	
 	TreeMap<String,Fiche> liste;
 	

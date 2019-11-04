@@ -1,6 +1,6 @@
 package tp2.classes;
 
-public class Fiche implements Comparable<Fiche>{
+public class Fiche implements Comparable<Fiche>, java.io.Serializable{
 	
 	private String nom;
 	private String num;
